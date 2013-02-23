@@ -1,6 +1,7 @@
-package tutorials.guice.part3.transport;
+package tutorials.guice.part3.transport.impl;
 
-import tutorials.guice.part3.Trucks;
+import tutorials.guice.part3.transport.Vehicle;
+import tutorials.guice.part3.transport.Wheel;
 
 import javax.inject.Inject;
 

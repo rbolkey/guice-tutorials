@@ -1,6 +1,8 @@
 Richard Bolkey's Guice Tutorial
 ==============
 
+[![Build Status](https://travis-ci.org/rbolkey/guice-tutorials.png)](https://travis-ci.org/rbolkey/guice-tutorials)
+
 ## Part 1: Building a simple object graph.
 
 Here we have a simple object graph containing a Restaurant that depends upon a kitchen. There is no Guice module or

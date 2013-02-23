@@ -14,6 +14,6 @@ public class Dish {
 
     @Override
     public String toString() {
-        return String.format("a very tasty dish of %s", name);
+        return new StringBuilder("a very tasty dish of ").append(name).toString();
     }
 }

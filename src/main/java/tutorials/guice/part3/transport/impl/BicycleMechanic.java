@@ -1,6 +1,9 @@
-package tutorials.guice.part3.transport;
+package tutorials.guice.part3.transport.impl;
+
+import tutorials.guice.part3.transport.Mechanic;
 
 import javax.inject.Inject;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class BicycleMechanic implements Mechanic<Bicycle> {
@@ -14,6 +17,8 @@ public class BicycleMechanic implements Mechanic<Bicycle> {
 
     @Override
     public void repair(final Bicycle vehicle) {
-        logger.info(String.format("Just repaired your sweet %s.", vehicle));
+        if (logger.isLoggable(Level.INFO)) {
+            logger.info(new StringBuilder("Just repaired your sweet ").append(vehicle).toString());
+        }
     }
 }

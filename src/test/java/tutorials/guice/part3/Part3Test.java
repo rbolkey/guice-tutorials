@@ -6,10 +6,11 @@ import com.google.inject.Module;
 import com.google.inject.TypeLiteral;
 import org.junit.Test;
 import tutorials.guice.BaseGuiceTest;
-import tutorials.guice.part3.transport.Bicycle;
+import tutorials.guice.part3.transport.impl.Bicycle;
 import tutorials.guice.part3.transport.Mechanic;
-import tutorials.guice.part3.transport.Truck;
+import tutorials.guice.part3.transport.impl.Truck;
 import tutorials.guice.part3.transport.Vehicle;
+import tutorials.guice.part3.transport.impl.Trucks;
 
 import javax.inject.Inject;
 import javax.inject.Provider;

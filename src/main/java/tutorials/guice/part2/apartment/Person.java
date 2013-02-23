@@ -14,6 +14,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return String.format("a swell person named %s", name);
+        return new StringBuilder("a swell person named %s").append(name).toString();
     }
 }

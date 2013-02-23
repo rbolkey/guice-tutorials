@@ -1,4 +1,4 @@
-package tutorials.guice.part3;
+package tutorials.guice.part4.bookstore.impl;
 
 import com.google.inject.BindingAnnotation;
 
@@ -11,5 +11,5 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @BindingAnnotation
 @Target({FIELD, PARAMETER, METHOD})
 @Retention(RUNTIME)
-public @interface Bicycles {
+public @interface PublisherTitles {
 }

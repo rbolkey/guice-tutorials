@@ -1,4 +1,6 @@
-package tutorials.guice.part3.transport;
+package tutorials.guice.part3.transport.impl;
+
+import tutorials.guice.part3.transport.Vehicle;
 
 public class Bicycle implements Vehicle {
 

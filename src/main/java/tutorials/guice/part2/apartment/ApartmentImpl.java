@@ -23,7 +23,7 @@ public class ApartmentImpl implements Apartment {
 
         final boolean occupied = this.person.compareAndSet(null, person);
         if (!occupied && !this.person.get().equals(person)) {
-            throw new IllegalArgumentException(String.format("%s already occupied the apartment!", this.person.get()));
+            throw new IllegalArgumentException(new StringBuilder().append(this.person.get()).append(" already occupied the apartment!").toString());
         }
     }
 }

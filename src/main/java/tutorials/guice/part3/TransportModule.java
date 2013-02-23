@@ -6,6 +6,7 @@ import com.google.inject.matcher.Matchers;
 import org.aopalliance.intercept.MethodInterceptor;
 import org.aopalliance.intercept.MethodInvocation;
 import tutorials.guice.part3.transport.*;
+import tutorials.guice.part3.transport.impl.*;
 
 import java.util.Random;
 import java.util.logging.Logger;

@@ -1,0 +1,13 @@
+# Build output #
+################
+build/*
+*.class
+out/*
+.gradle/*
+
+# IDE files #
+#############
+.classpath
+.project
+.idea/*
+*.iml

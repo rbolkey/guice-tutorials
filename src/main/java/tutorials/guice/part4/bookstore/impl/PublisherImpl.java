@@ -44,7 +44,7 @@ public class PublisherImpl implements Publisher {
 
     @Override
     public String toString() {
-        return new StringBuilder("publisher ").append(name).toString();
+        return new StringBuilder("publisher ").append(getName()).toString();
     }
 
 

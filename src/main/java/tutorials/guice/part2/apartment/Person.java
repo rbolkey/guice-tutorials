@@ -14,6 +14,6 @@ public class Person {
 
     @Override
     public String toString() {
-        return new StringBuilder("a swell person named %s").append(name).toString();
+        return new StringBuilder("a swell person named %s").append(getName()).toString();
     }
 }

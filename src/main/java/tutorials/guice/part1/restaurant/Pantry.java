@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Pantry {
 
+    @SuppressWarnings({"FieldCanBeLocal", "UnusedDeclaration"})
     private final List<String> stock;
 
     @Inject

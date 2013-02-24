@@ -20,6 +20,7 @@ public class ApartmentModule extends AbstractModule {
     @Override
     protected void configure() {
         // bind the interface to the concrete class and ensure there is just one instance of the class
+        // Note: Apartment references are Singletons .. ApartmentImpl references are NOT!
         bind(Apartment.class).to(ApartmentImpl.class).in(Singleton.class);
         // bind the string constant annotated with Name("address") to this constant
         bindConstant().annotatedWith(Names.named("address")).to(ApartmentConstants.BREEZY_LANE);
